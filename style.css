@@ -1,0 +1,272 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.portfolio-section{
+	height: 400px;
+	width: 100%;
+	border: 2px solid black;
+	text-align: 30%;
+	background-color: palegoldenrod;
+
+}
+
+.navigation-bar{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: transparent;
+	backdrop-filter: blur(10px);
+	z-index: 1;
+
+}
+
+.portfolio-section h1{
+	margin-top: 50px;
+
+}
+html{
+	scroll-behavior: smooth;
+}
+.main-container{
+	position: relative;
+	top: 50px;
+}s
+.brand{
+	font-size: 30px;
+	font-family: Arial Black;
+	font-variant: small-caps;
+	color: darkgoldenrod;
+
+}
+
+.navmenu{
+	color: darkgoldenrod;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	padding-left: 15px;
+
+}
+
+.navmenu:hover {
+	text-decoration: underline 3px solid gray;
+	text-underline-offset: 6px;
+
+}
+
+
+.focus-in-expand-fwd {
+	-webkit-animation: focus-in-expand-fwd 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand-fwd 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+            transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+            transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+
+#home{
+	height: 350px;
+	background-image: url(https://png.pngtree.com/png-clipart/20240110/original/pngtree-teacher-teaching-various-subjects-learning-education-middle-aged-female-computer-teacher-png-image_14071613.png) ;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: 90% 50%;
+	border: none;
+
+}
+
+#home-info{
+	position: absolute;
+	top: 20px;
+	width: 400px;
+	height: 250px;
+	font-size: 25px;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+.info{
+	font-weight: bolder;
+	color: goldenrod;
+
+}
+
+.designation{
+	color: gray;
+	font-size: 30px;
+	font-weight: bolder;
+
+}
+
+.myname{
+	font-size: 35px;
+	color: darkgoldenrod;
+	font-family: sans-serif;
+	font-weight: bolder;
+
+}
+.rsmbtn{
+	height: 40px;
+	width: 100px;
+	border: none;
+	margin-top: 20px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	background-color: darkgoldenrod;
+	color: whitesmoke;
+	transition-duration: 1s;
+
+}
+.rsmbtn:hover{
+	background-color: whitesmoke;
+	color: darkgoldenrod;
+	border: 3px solid darkgoldenrod;
+	transform: scale(1.1);
+}
+
+.about-section{
+	height: 400px;
+	width: 100%;
+	
+}
+
+.aboutmain{
+	height: 350px;
+	width: 100%;
+	display: flex;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	border: none;
+}
+
+.aboutmain div{
+	height: 400px;
+	 width: 45%;
+}
+
+}
+
+.myimage{
+	height: 100px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+
+}
+.khushbu{
+	height: 250px;
+	margin-top: 50px;
+	margin-left:40px ;
+	image-orientation: 10px ;
+
+}
+.heading{
+	font-family: sans-serif;
+	text-align: center;
+	margin: 60px 20 px;
+	font-size: 30px;
+	color: goldenrod;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+.carrerobj{
+	padding: 20px;
+}
+.carrerinfo{
+	text-align: justify;
+	line-height: 30px;
+	text-indent: 50px;
+	word-spacing: 5px;
+	letter-spacing: 0.5px;
+	font-size: 15px;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+#skills{
+	height: 600px;
+	width: 100%;
+	background-color: whitesmoke;
+
+}
+
+.tbl{
+	margin-left: 2.5%;
+	padding-block: 20px;
+
+
+}
+.tbl tr td{
+	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px gold;
+	transition-duration: 1.5s;
+	background-color: white;
+
+}
+
+.skills-subheading{
+	color: gray;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+	font-variant: small-caps;
+}
+
+.detailedSkills{
+	font-size: 23px;
+	font-weight: bolder;
+	color: black;
+	line-height: 40px;
+	word-spacing: 2px;
+	margin-top: 20px;
+}
+.tbl tr td:hover{
+	transform: scale(1.05);
+
+	border: 2px solid gray;
+	box-shadow: 10px 15px 10px gray;
+
+}
+
+
+.heading{
+	margin-top: 30px;
+}
