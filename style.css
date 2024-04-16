@@ -5,7 +5,7 @@
 .portfolio-section{
 	height: 400px;
 	width: 100%;
-	border: 2px solid black;
+	border: none;
 	text-align: 30%;
 	background-color: palegoldenrod;
 
@@ -31,7 +31,7 @@ html{
 .main-container{
 	position: relative;
 	top: 50px;
-}s
+}
 .brand{
 	font-size: 30px;
 	font-family: Arial Black;
@@ -207,7 +207,7 @@ html{
 }
 
 .carrerobj{
-	padding: 20px;
+	padding: 60px;
 }
 .carrerinfo{
 	text-align: justify;
@@ -220,53 +220,5 @@ html{
 	margin-top: 30px;
 }
 
-#skills{
-	height: 600px;
-	width: 100%;
-	background-color: whitesmoke;
-
-}
-
-.tbl{
-	margin-left: 2.5%;
-	padding-block: 20px;
 
 
-}
-.tbl tr td{
-	padding: 40px;
-	border-radius: 20px;
-	box-shadow: 0px 0px 5px gold;
-	transition-duration: 1.5s;
-	background-color: white;
-
-}
-
-.skills-subheading{
-	color: gray;
-	font-family: sans-serif;
-	font-weight: bolder;
-	font-size: 25px;
-	font-variant: small-caps;
-}
-
-.detailedSkills{
-	font-size: 23px;
-	font-weight: bolder;
-	color: black;
-	line-height: 40px;
-	word-spacing: 2px;
-	margin-top: 20px;
-}
-.tbl tr td:hover{
-	transform: scale(1.05);
-
-	border: 2px solid gray;
-	box-shadow: 10px 15px 10px gray;
-
-}
-
-
-.heading{
-	margin-top: 30px;
-}
